@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ankieta</title>
+</head>
+<body id="b">
+    <p class="title">Ankieta</p>
+      <form class="form" action="/submit" method="post">
+        <label for="imie">Imię:</label><br>
+        <input type="text" id="imie" name="imie"><br>
+        <label for="nazwisko">Nazwisko:</label><br>
+        <input type="text" id="nazwisko" name="nazwisko"><br><br>
+    
+        <label for="wiek">Ile masz lat:</label>
+        <select id="wiek" name="wiek">
+            <option value="13">Mniej niż 13</option>
+            <option value="1415">13-15</option>
+            <option value="1617">16-17</option>
+            <option value="18">18+</option>
+        </select>
+    
+        <p class="form">Lubisz podróżować?</p>
+    
+        <input type="radio" id="tak" name="miasto" value="tak">
+        <label for="tak">Tak</label><br>
+        <input type="radio" id="nie" name="miasto" value="nie">
+        <label for="nie">Nie</label><br>
+    
+        <p class="form">Co ci się podobało w tej stronie?</p>
+    
+        <input type="checkbox" id="b" name="b" value="Budynki">
+        <label for="b">Zdjecia</label><br>
+        <input type="checkbox" id="l" name="l" value="Ludzie">
+        <label for="l">dobranie kolorów</label><br>
+        <input type="checkbox" id="p" name="p" value="Pogoda">
+        <label for="p">Pomysł</label><br>
+        <input type="checkbox" id="i" name="i" value="Inne">
+        <label for="i">Coś innego</label>
+        <br>
+        <br>
+        <button type="submit">Wyślij</button>
+        <button type="reset">Wyczyść formularz</button>
+      </form>
+
+      <a href="index.html"><p1>Powrót do menu</p1></a>
+</body>
+</html>
