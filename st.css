@@ -18,8 +18,7 @@
   #t5{
     width: 200px; 
     height: 100px; 
-    justify-content: center; 
-    align-items: center;
+   
   }
 } 
   
@@ -42,7 +41,7 @@
   #t5{
     width: 400px; 
     height: 250px; 
-
+    float: right;
   }
 
   
